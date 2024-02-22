@@ -1,8 +1,8 @@
 const sbmt = document.querySelector("#submit");
+const resultElement = document.querySelector( `#volume`);
       sbmt.addEventListener('click', volume_sphere);
 
 function volume_sphere(){
-	const resultElement = document.querySelector("#volume");
 
     var radius = document.getElementById("radius").value;
     console.log(`Rr-adius: ${radius}` );
