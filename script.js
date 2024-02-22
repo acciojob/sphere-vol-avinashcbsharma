@@ -1,9 +1,9 @@
 const sbmt = document.querySelector("#submit");
-const resultElement = document.querySelector( `#volume`);
       sbmt.addEventListener('click', volume_sphere);
 
 function volume_sphere(){
 
+const volumeElement = document.getElementById("volume");
     var radius = document.getElementById("radius").value;
     console.log(`Rr-adius: ${radius}` );
         
@@ -16,7 +16,7 @@ function volume_sphere(){
     var vol = 4 * Math.PI * Math.pow(radius, 3)/3;
     
     // Display the result into volume box
-    resultElement.value =  vol.toFixed(2); 
+    volumeElement.value =  vol.toFixed(2); 
 }
 
 //window.onload = document.getElementById('MyForm').onsubmit = volume_sphere;
