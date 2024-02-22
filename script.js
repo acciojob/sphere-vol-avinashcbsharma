@@ -5,7 +5,7 @@ function volume_sphere(){
 
 const volumeElement =  document.querySelector("#volume");
     var radius = document.getElementById("radius").value;
-    console.log(`Rr-adius: ${radius}` );
+    
         
     if (isNaN(radius)) {
         alert("Please enter a valid number for the radius.");
