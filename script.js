@@ -3,7 +3,7 @@ const sbmt = document.querySelector("#submit");
 
 function volume_sphere(){
 
-const volumeElement = document.getElementById("volume");
+const volumeElement =  document.querySelector("#volume");
     var radius = document.getElementById("radius").value;
     console.log(`Rr-adius: ${radius}` );
         
